@@ -13,28 +13,28 @@ importers:
         version: 5.2.0
     devDependencies:
       '@eslint/js':
-        specifier: ^9.26.0
+        specifier: ^9.31.0
         version: 9.31.0
       '@types/express':
-        specifier: ^5.0.1
+        specifier: ^5.0.3
         version: 5.0.3
       '@types/node':
-        specifier: ^22.15.12
+        specifier: ^22.16.5
         version: 22.16.5
       eslint:
-        specifier: ^9.26.0
+        specifier: ^9.31.0
         version: 9.31.0
       prettier:
-        specifier: ^3.5.3
+        specifier: ^3.6.2
         version: 3.6.2
       tsx:
-        specifier: ^4.19.4
+        specifier: ^4.20.3
         version: 4.20.3
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
       typescript-eslint:
-        specifier: ^8.32.0
+        specifier: ^8.38.0
         version: 8.38.0(eslint@9.31.0)(typescript@5.8.3)
 
 packages:
@@ -815,8 +815,8 @@ packages:
   path-to-regexp@8.4.2:
     resolution: {integrity: sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==}
 
-  picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+  picomatch@2.3.2:
+    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
   prelude-ls@1.2.1:
@@ -1716,7 +1716,7 @@ snapshots:
   micromatch@4.0.8:
     dependencies:
       braces: 3.0.3
-      picomatch: 2.3.1
+      picomatch: 2.3.2
 
   mime-db@1.54.0: {}
 
@@ -1777,7 +1777,7 @@ snapshots:
 
   path-to-regexp@8.4.2: {}
 
-  picomatch@2.3.1: {}
+  picomatch@2.3.2: {}
 
   prelude-ls@1.2.1: {}
 
